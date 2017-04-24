@@ -1,0 +1,39 @@
+{
+  "name": "js-ot",
+  "version": "0.0.1",
+  "description": "Runtime agnostic JavaScript implementation of a composition-friendly core library for operational transforms.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukebayes/js-ot.git"
+  },
+  "keywords": [
+    "Operational",
+    "Transformation",
+    "OT"
+  ],
+  "author": "Luke Bayes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukebayes/js-ot/issues"
+  },
+  "homepage": "https://github.com/lukebayes/js-ot",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "mocha": "^3.3.0",
+    "sinon": "^2.1.0",
+    "webpack": "^2.4.1"
+  }
+}
