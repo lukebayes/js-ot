@@ -1,10 +1,10 @@
 const array = require('./src/array');
 const object = require('./src/object');
-const operations = require('./src/operations');
+const infos = require('./src/infos');
 
 module.exports = {
   array,
   object,
-  operations,
+  infos,
 };
 
